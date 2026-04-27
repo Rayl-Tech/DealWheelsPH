@@ -1,0 +1,331 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+<title>DealWheels PH</title> 
+<meta name="description" content="Explore luxury performance vehicles. Book test drives 
+and discover premium cars at DealWheels PH."> 
+ 
+<link rel="stylesheet" href="style.css"> 
+<link rel="icon" href="favicon.ico"> 
+</head> 
+ 
+<body> 
+ 
+<div id="splash" aria-hidden="true"> 
+  <div class="splash-content"> 
+    <h1 class="splash-logo">DEALWHEELS</h1> 
+    <p class="splash-tagline">Drive the Extraordinary</p> 
+    <div class="loader"></div> 
+  </div> 
+</div> 
+ 
+<header class="navbar" id="navbar"> 
+  <h1 class="logo">DEALWHEELS</h1> 
+ 
+  <nav class="nav-menu" aria-label="Main Navigation"> 
+    <a href="#home">Home</a> 
+    <a href="#brands">Brands</a>
+    <a href="#featured">Featured</a> 
+    <a href="#offers">Offers</a> 
+    <a href="#contact">Contact</a> 
+  </nav> 
+ 
+  <button class="hamburger" id="hamburger" aria-label="Open Menu">☰</button> 
+</header> 
+ 
+<aside id="sideMenu" aria-hidden="true"> 
+  <a href="#home">Home</a> 
+  <a href="#brands">Brands</a>
+  <a href="#featured">Featured</a> 
+  <a href="#offers">Offers</a> 
+  <a href="#contact">Contact</a> 
+</aside> 
+ 
+<div id="overlay"></div> 
+ 
+<main> 
+ 
+<section id="home" class="hero"> 
+  <video autoplay muted loop playsinline class="hero-video"> 
+    <source src="car-video.mp4" type="video/mp4"> 
+  </video> 
+ 
+  <div class="hero-overlay"> 
+    <h1>DRIVE THE FUTURE</h1> 
+    <p>Performance Meets Luxury</p> 
+ 
+    <div class="hero-cta"> 
+      <button type="button" class="btn-primary" data-scroll="offers">Explore Cars</button> 
+      <button type="button" class="btn-outline" data-scroll="contact">Book Test Drive</button> 
+    </div> 
+  </div> 
+</section> 
+
+
+<section id="featured" class="section reveal"> 
+  <div class="container"> 
+
+    <div class="slider-container" id="slider">  
+    <h2 class="section-title">NEW MODELS</h2> 
+ 
+      <div class="slide active"> 
+        <img src="camaro.jpg" alt="Chevrolet Camaro"> 
+        <div class="slide-overlay"> 
+          <h3>Chevrolet Camaro</h3> 
+          <p>Pure American Muscle</p> 
+          <button class="btn-primary">View Car</button> 
+        </div> 
+      </div> 
+ 
+      <div class="slide"> 
+        <img src="corvette1.jpg" alt="Chevrolet Corvette"> 
+        <div class="slide-overlay"> 
+          <h3>Corvette Stingray</h3> 
+          <p>Precision Performance</p> 
+          <button class="btn-primary">View Car</button> 
+        </div> 
+      </div> 
+ 
+      <div class="slide"> 
+        <img src="corvette3.jpg" alt="Corvette Z06"> 
+        <div class="slide-overlay"> 
+          <h3>Corvette Z06</h3> 
+          <p>Track Dominance</p> 
+          <button class="btn-primary">View Car</button> 
+        </div> 
+      </div> 
+ 
+      <button class="prev">❮</button> 
+      <button class="next">❯</button> 
+ 
+      <div class="dots"></div> 
+    </div> 
+  </div> 
+</section> 
+
+<section id="offers" class="section reveal"> 
+  <div class="container"> 
+ 
+    <h2 class="section-title">LATEST OFFERS</h2> 
+ 
+    <div class="filter-bar"> 
+      <button type="button" class="filter-btn active" data-filter="all">All</button> 
+      <button type="button" class="filter-btn" data-filter="ford">Ford</button> 
+      <button type="button" class="filter-btn" data-filter="porsche">Porsche</button> 
+      <button type="button" class="filter-btn" data-filter="ferrari">Ferrari</button> 
+      <button type="button" class="filter-btn" data-filter="chevrolet">Chevrolet</button> 
+      <button type="button" class="filter-btn" data-filter="lamborghini">Lamborghini</button> 
+    </div> 
+ 
+    <div class="cars-grid"> 
+ 
+      <div class="car-card" data-brand="ford"> 
+        <img src="ford1.jpg" alt="Ford Explorer SUV" loading="lazy"> 
+        <h3>Ford Explorer</h3> 
+        <p>₱3,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="ford"> 
+        <img src="ford2.jpg" alt="Ford Explorer SUV" loading="lazy"> 
+        <h3>Ford Explorer</h3> 
+        <p>₱3,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="ford"> 
+        <img src="ford5.jpg" alt="Ford Mustang GT sports car" loading="lazy"> 
+        <h3>Mustang GT</h3> 
+        <p>₱4,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="chevrolet"> 
+        <img src="sting.jpg" alt="Corvette Stingray" loading="lazy"> 
+        <h3>Corvette Stingray</h3> 
+        <p>₱6,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="chevrolet"> 
+        <img src="sting1.jpg" alt="Corvette Stingray" loading="lazy"> 
+        <h3>Corvette Stingray</h3> 
+        <p>₱6,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="chevrolet"> 
+        <img src="sting3.jpg" alt="Corvette Stingray" loading="lazy"> 
+        <h3>Corvette Stingray</h3> 
+        <p>₱6,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="ferrari"> 
+        <img src="fera1.jpg" alt="SF90 XX Strandale" loading="lazy"> 
+        <h3>SF90 XX Strandale</h3> 
+        <p>₱20,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="ferrari"> 
+        <img src="fera3.jpg" alt="296 GTB" loading="lazy"> 
+        <h3>296 GTB</h3> 
+        <p>₱18,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="ferrari"> 
+        <img src="fera2.jpg" alt="Monza SP2" loading="lazy"> 
+        <h3>Monza SP2</h3> 
+        <p>₱17,498,000</p> 
+      </div> 
+
+      <div class="car-card" data-brand="porsche"> 
+        <img src="26.png" alt="Monza SP2" loading="lazy"> 
+        <h3>Porsche 911 GT3 RS</h3> 
+        <p>₱9,498,000</p> 
+      </div>
+
+       <div class="car-card" data-brand="porsche"> 
+        <img src="36.png" alt="Monza SP2" loading="lazy"> 
+        <h3>Porsche 911 GT3 RS</h3> 
+        <p>₱10,498,000</p> 
+      </div>
+
+      <div class="car-card" data-brand="porsche"> 
+        <img src="18.png" alt="Monza SP2" loading="lazy"> 
+        <h3>Porsche 911 GT3 RS</h3> 
+        <p>₱10,498,000</p> 
+      </div>
+
+      <div class="car-card" data-brand="porsche"> 
+        <img src="23.png" alt="Monza SP2" loading="lazy"> 
+        <h3>Porsche 911 GT3 RS</h3> 
+        <p>₱10,498,000</p> 
+      </div>
+
+      <div class="car-card" data-brand="lamborghini"> 
+        <img src="54.png" alt="Monza SP2" loading="lazy"> 
+        <h3>Lamborghini Urus</h3> 
+        <p>₱35,498,000</p> 
+      </div>
+
+      <div class="car-card" data-brand="lamborghini"> 
+        <img src="55.png" alt="Monza SP2" loading="lazy"> 
+        <h3>Lamborghini Huracan</h3> 
+        <p>₱35,498,000</p> 
+      </div>
+
+      <div class="car-card" data-brand="lamborghini"> 
+        <img src="53.png" alt="Monza SP2" loading="lazy"> 
+        <h3>Lamborghini Huracan</h3> 
+        <p>₱35,498,000</p> 
+      </div>
+ 
+    </div> 
+ 
+  </div> 
+</section> 
+
+
+<section id="brands" class="section reveal"> 
+  <div class="container"> 
+    <h2 class="section-title">CAR BRANDS</h2> 
+ 
+    <div class="brands-grid"> 
+
+  
+      <div class="brand-card" data-brand="lamborghini"> 
+        <img src="2.png" class="brand-logo"> 
+        <h3>Lamborghini</h3> 
+        <a href="lamborghini.html" class="btn-outline">Explore Models</a> 
+      </div> 
+
+      <div class="brand-card" data-brand="ford"> 
+        <img src="4.png" class="brand-logo"> 
+        <h3>Ford</h3> 
+        <a href="ford.html" class="btn-outline">Explore Models</a> 
+      </div> 
+
+      <div class="brand-card" data-brand="chevrolet"> 
+        <img src="5.png" class="brand-logo"> 
+        <h3>Chevrolet</h3> 
+        <a href="chevrolet.html" class="btn-outline">Explore Models</a> 
+      </div> 
+ 
+     
+      <div class="brand-card" data-brand="ferrari"> 
+        <img src="1.png" class="brand-logo"> 
+        <h3>Ferrari</h3> 
+        <a href="ferrari.html" class="btn-outline">Explore Models</a> 
+      </div> 
+      
+      <div class="brand-card" data-brand="porsche"> 
+        <img src="3.png" class="brand-logo"> 
+        <h3>Porsche</h3> 
+        <a href="porsche.html" class="btn-outline">Explore Models</a> 
+      </div>
+ 
+    </div> 
+  </div> 
+</section> 
+ 
+
+<div id="carModal" class="modal" role="dialog" aria-modal="true"> 
+  <div class="modal-content"> 
+    <button class="close" type="button" aria-label="Close Modal">×</button> 
+    <h2 id="carTitle"></h2> 
+    <p id="carPrice"></p> 
+  </div> 
+</div> 
+ 
+<!-- CONTACT --> 
+<section id="contact" class="section reveal"> 
+  <div class="container small"> 
+ 
+    <h2 class="section-title">BOOK TEST DRIVE</h2> 
+ 
+    <form id="contactForm"> 
+      <label for="name">Name</label> 
+      <input type="text" id="name" placeholder="Enter your name" required> 
+ 
+      <label for="email">Email</label> 
+      <input type="email" id="email" placeholder="Enter your email" required> 
+ 
+      <label for="phone">Phone</label> 
+      <input type="tel" id="phone"  placeholder="Enter your phone number" required> 
+ 
+      <button type="submit" class="btn-primary">Submit</button> 
+    </form> 
+ 
+  </div> 
+</section> 
+ 
+</main> 
+ 
+<!-- FOOTER --> 
+<footer class="footer"> 
+  <div class="container"> 
+ 
+    <p>DealWheels PH — Drive Beyond Limits</p> 
+
+    <div class="socials"> 
+      <a href="https://ford.com.ph" target="_blank" rel="noopener">Ford</a> 
+      <a href="https://ferrari.com" target="_blank" rel="noopener">Ferrari</a> 
+      <a href="https://porsche.com" target="_blank" rel="noopener">Porsche</a> 
+      <a href="https://lamborghini.com" target="_blank" rel="noopener">Lamborghini</a> 
+      <a href="https://chevrolet.com.ph" target="_blank" rel="noopener">Chevrolet</a> 
+    </div> 
+ 
+    <div class="socials"> 
+      <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a> 
+      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a> 
+      <a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a> 
+      <a href="https://tiktok.com" target="_blank" rel="noopener">TikTok</a> 
+    </div> 
+ 
+    <p>© 2026 DealWheels PH x Rayl-Tech</p> 
+ 
+  </div> 
+</footer> 
+ 
+<script src="script.js"></script> 
+ 
+</body> 
+</html> 
